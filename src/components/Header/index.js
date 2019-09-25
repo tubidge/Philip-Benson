@@ -25,7 +25,12 @@ const Header = props => {
         <div className={styles.navbar}>
             <h1>Philip Benson</h1>
             <ul>
+                {/* <li><Link to='/'>About</Link></li>
                 <li><Link to='/portfolio'>Portfolio</Link></li>
+                <li><Link to='/contact'>Contact</Link></li> */}
+
+                <a href="index.html">About</a> &nbsp; | &nbsp; <a href="portfolio.html">Portfolio</a> &nbsp; | &nbsp; <a
+                    href="contact.html">Contact</a>
             </ul>
 
             <div>
