@@ -6,7 +6,7 @@ const Footer = props => {
     return (
         <div>
             <p>Created by Philip Benson</p>
-            <span>2019</span>
+            <span>&copy; 2019</span>
         </div>
     )
 };

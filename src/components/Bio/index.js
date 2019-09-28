@@ -3,7 +3,8 @@ import React from "react";
 const Bio = props => {
     return (
         <div>
-            <img id="profile_pic" src="assets/images/Phil-Benson.jpg" alt="Philip Benson" height="193px" width="175px" />
+            {/* Get picture working */}
+            <img id="profile_pic" src="../../images/Phil-Benson.jpg" alt="Philip Benson" height="193px" width="175px" />
 
             <p id="p1">
                 My name is Phil, welcome to my website. Here I will be showcasing my web development projects as I build

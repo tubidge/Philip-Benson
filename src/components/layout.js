@@ -35,7 +35,7 @@ const Layout = props => {
     
   `)
 
-  console.log(data)
+  console.log(`Contentful data: ${data}`)
   return (
     <>
       <Header />
