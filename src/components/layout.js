@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Bio from "./Bio"
 import Footer from "./Footer"
 import "./layout.module.scss"
 
@@ -39,14 +40,15 @@ const Layout = props => {
     <>
       <Header />
       <div>
-        <ul>
+        {/* <ul>
           {data.allContentfulProject.edges.map(index => {
             return (
               <li>{index.node.projectTitle}</li>
             )
           })}
-        </ul>
+        </ul> */}
         <main>{props.children}</main>
+        <Bio />
         <Footer />
       </div>
     </>
