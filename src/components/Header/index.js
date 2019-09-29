@@ -22,10 +22,12 @@ const Header = props => {
 
     // console.log(data)
     return (
-        <div className={styles.navbar}>
+        <div id={styles.topbanner}>
             <h1>Philip Benson</h1>
-            <a href="index.html">About</a> &nbsp; | &nbsp; <a href="portfolio.html">Portfolio</a> &nbsp; | &nbsp; <a
-                href="contact.html">Contact</a>
+            <div>
+                <a href="index.html">About</a> &nbsp; | &nbsp; <a href="portfolio.html">Portfolio</a> &nbsp; | &nbsp; <a
+                    href="contact.html">Contact</a>
+            </div>
             {/* <ul>
                 <li><Link to='/'>About</Link></li>
                 <li><Link to='/portfolio'>Portfolio</Link></li>

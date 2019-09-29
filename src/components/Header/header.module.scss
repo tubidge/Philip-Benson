@@ -1,14 +1,47 @@
-.navbar {
+// .navbar {
+//     h1 {
+//         color: rgb(51, 2, 2)
+//     }
+//     ul {
+//         li {
+//             list-style-type: none;
+//             color: black;
+//             a {
+//                 text-decoration: none;
+//             }
+//         }
+//     }
+// }
+
+#topbanner {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    margin: 0 0 30px 0;
     h1 {
-        color: rgb(51, 2, 2)
+        float: left;
+        background: #4aaaa5;
+        font-size: 26px;
+        color: #ffffff;
+        width: 160px;
+        /* height: 70px; */
+        text-align: center;
+        padding: 20px;
     }
-    ul {
-        li {
-            list-style-type: none;
-            color: black;
-            a {
-                text-decoration: none;
-            }
-        }
+    div {
+        float: right;
+        background: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #cccccc;
+        /* border-style: solid;
+        border-width: 5px; */
+        width: 320px;
+        /* height: 70px; */
+        padding: 27px 0px 27px 20px;
+        text-align: right;
     }
 }

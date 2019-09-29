@@ -15,7 +15,7 @@ import Footer from "./Footer"
 import "./layout.module.scss"
 
 const Layout = props => {
-  console.log(props);
+  console.log(`Props: ${props}`);
   const data = useStaticQuery(graphql`
     query { 
       allContentfulProject {
