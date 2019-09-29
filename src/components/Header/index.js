@@ -25,8 +25,9 @@ const Header = props => {
         <div id={styles.topbanner}>
             <h1>Philip Benson</h1>
             <div>
-                <a href="index.html">About</a> &nbsp; | &nbsp; <a href="portfolio.html">Portfolio</a> &nbsp; | &nbsp; <a
-                    href="contact.html">Contact</a>
+                <Link to="/">About</Link> &nbsp; | &nbsp;
+                <Link to="/portfolio">Portfolio</Link> &nbsp; | &nbsp;
+                <Link to="/contact">Contact</Link>
             </div>
             {/* <ul>
                 <li><Link to='/'>About</Link></li>
